@@ -1,0 +1,171 @@
+div.container {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', 'Sans Serif';
+}
+
+div.blurb {
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: 'Open Sans', 'Sans Serif';
+}
+
+div.list {
+	padding-left: 20px;
+	margin-top: -10px;
+	font-family: 'Open Sans', 'Sans Serif';
+}
+
+h4 {
+	
+padding-left: 7px;
+
+}
+
+.list ul {
+	
+	list-style-type: square;
+}  
+
+.list ul li {
+	padding: 5px 0;
+}
+
+header {
+	width: 100%;
+	text-align:center;
+	margin: 0 auto;
+}
+
+img {
+    max-width: 100%;	
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    font-size: 1em;
+    font-family: 'Open Sans', 'Sans Serif';
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+	
+.topnav a:link {
+	color: white;
+}
+	
+.topnav a, a:visited {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-family: 'Open Sans', 'Sans Serif';
+    margin: 0 5%;
+}
+
+.topnav a:hover {
+  color: gray;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+   float: right;
+   display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+
+}
+
+h1 {
+	font-family: "Open Sans";
+	font-size: 2.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h1.title {
+	font-family: "Open Sans";
+	margin: 5px auto;
+	font-size: 2.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+h2 {
+	font-family: "Open Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+p {
+	font-family: "Open Sans";
+	text-align: justify;
+}
+
+a:link, a:visited {
+    color: grey;
+}
+
+a:hover {
+	color: silver;
+}
+
+p.big {
+    line-height: 200%;
+    font-size: 0.8em;
+}
+
+/*half-half containers*/
+
+.left-half {
+  float: left;
+  width: 50%;
+  margin: auto;
+  font-family: 'Open Sans', 'Sans Serif';
+}
+
+.right-half {
+  float: left;
+  width: 50%;
+  margin: auto;
+  font-family: 'Open Sans', 'Sans Serif';
+}
+
+/*column containers*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
