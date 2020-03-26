@@ -60,7 +60,7 @@ body {
 	color: white;
 }
 	
-.topnav a, a:visited {
+.topnav a {
     display: inline-block;
     color: white;
     text-align: center;
